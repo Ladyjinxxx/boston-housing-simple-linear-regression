@@ -106,29 +106,7 @@ The notebook generates the following figures:
 - Matplotlib
 - Seaborn
 - Scikit-learn
-
----
-
-## Project Structure
-
-```
-BostonHousingRegression/
-│
-├── LinearRegression.ipynb
-├── README.md
-├── dataset/
-│   └── house Prediction Data Set.csv
-│
-├── outputs/
-│   ├── Charts/
-│   ├── Tables/
-│   └── Predictions/
-│
-└── requirements.txt
-```
-
----
-
+  
 ## Results
 
 The notebook automatically saves:
