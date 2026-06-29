@@ -4,7 +4,7 @@
 
 This project demonstrates the complete machine learning workflow for building a **Simple Linear Regression** model using the Boston Housing dataset. The objective is to predict the median house value (MEDV) using a single predictor variable selected based on correlation analysis.
 
-The project includes data cleaning, exploratory data analysis, feature selection, model training, model evaluation, and visualization. It was developed as part of a Machine Learning laboratory exercise.
+The project includes data cleaning, exploratory data analysis, feature selection, model training, model evaluation, and visualization. It was developed as part of a Machine Learning internship task.
 
 ---
 
