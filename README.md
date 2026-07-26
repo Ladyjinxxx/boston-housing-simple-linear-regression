@@ -25,10 +25,10 @@ This project implements an end-to-end machine learning regression pipeline, incl
 
 | Metric | Score |
 |---|---|
-| Mean Absolute Error (MAE) | **YOUR VALUE** |
-| Mean Squared Error (MSE) | **YOUR VALUE** |
-| Root Mean Squared Error (RMSE) | **YOUR VALUE** |
-| R² Score | **YOUR VALUE** |
+| Mean Absolute Error (MAE) | **4.1365** |
+| Mean Squared Error (MSE) | **27.8763** |
+| Root Mean Squared Error (RMSE) | **5.2798** |
+| R² Score | **0.4997** |
 
 The Linear Regression model successfully learned the relationship between the housing features and house prices. Model performance was evaluated using common regression metrics, with the R² Score indicating how well the model explained the variance in housing prices.
 
