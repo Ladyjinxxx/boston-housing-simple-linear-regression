@@ -36,8 +36,9 @@ The Linear Regression model successfully learned the relationship between the ho
 
 | | |
 |---|---|
-| ![Feature Histograms](outputs/charts/feature_histograms.png) | ![Correlation Heatmap](outputs/charts/correlation_heatmap.png) |
-| ![Actual vs Predicted](outputs/charts/actual_vs_predicted.png) | ![Residual Plot](outputs/charts/residual_plot.png) |
+| ![Scatter Plot](outputs/charts/Scatter_Plot.png) | ![Regression Line](outputs/charts/Regression_Line.png) |
+| ![Correlation Heatmap](outputs/charts/Correlation_Heatmap.png) | ![Actual vs Predicted](outputs/charts/Actual_vs_Predicted.png) |
+| ![Residual Plot](outputs/charts/Residual_Plot.png) | ![Residual Distribution](outputs/charts/Residual_Distribution.png) |
 
 ## Key Takeaways
 
