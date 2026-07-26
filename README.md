@@ -1,135 +1,60 @@
-# Boston Housing Price Prediction using Simple Linear Regression
+# Level 1 - Task 2: House Price Prediction Using Linear Regression
+
+**Codveda Technologies Machine Learning Internship**
+
+A Linear Regression model built with Scikit-learn to predict house prices based on housing features.
 
 ## Project Overview
 
-This project demonstrates the complete machine learning workflow for building a **Simple Linear Regression** model using the Boston Housing dataset. The objective is to predict the median house value (MEDV) using a single predictor variable selected based on correlation analysis.
+This project implements an end-to-end machine learning regression pipeline, including data loading, exploratory data analysis (EDA), feature preprocessing, model training, prediction, and performance evaluation using Linear Regression.
 
-The project includes data cleaning, exploratory data analysis, feature selection, model training, model evaluation, and visualization. It was developed as part of a Machine Learning internship task.
+**Dataset:** Boston Housing Dataset (or your dataset name if different) — containing housing attributes such as crime rate, number of rooms, tax rate, and other socioeconomic features used to predict median house prices.
 
----
+## Model Architecture
 
-## Objectives
+| Component | Description |
+|---|---|
+| Algorithm | Linear Regression |
+| Problem Type | Regression |
+| Input | Housing features |
+| Output | Predicted house price |
+| Train-Test Split | 80% Training / 20% Testing |
+| Library | Scikit-learn |
 
-- Clean and preprocess the raw dataset.
-- Perform exploratory data analysis (EDA).
-- Identify the most suitable predictor variable.
-- Build a Simple Linear Regression model.
-- Evaluate the model using regression metrics.
-- Visualize model performance through various plots.
+## Results
 
----
+| Metric | Score |
+|---|---|
+| Mean Absolute Error (MAE) | **YOUR VALUE** |
+| Mean Squared Error (MSE) | **YOUR VALUE** |
+| Root Mean Squared Error (RMSE) | **YOUR VALUE** |
+| R² Score | **YOUR VALUE** |
 
-## Dataset
-
-**Dataset:** Boston Housing Dataset
-
-The original dataset was provided in a raw format where all values were stored in a single column. The notebook performs preprocessing to separate the values into their respective attributes before analysis.
-
-### Features
-
-- CRIM
-- ZN
-- INDUS
-- CHAS
-- NOX
-- RM
-- AGE
-- DIS
-- RAD
-- TAX
-- PTRATIO
-- B
-- LSTAT
-
-### Target Variable
-
-- MEDV (Median Value of Owner-Occupied Homes)
-
----
-
-## Project Workflow
-
-1. Import required libraries
-2. Mount Google Drive
-3. Load the raw dataset
-4. Clean and preprocess the data
-5. Perform exploratory data analysis
-6. Generate a correlation matrix and heatmap
-7. Select the best predictor variable
-8. Split the dataset into training and testing sets
-9. Train the Simple Linear Regression model
-10. Generate predictions
-11. Evaluate model performance
-12. Visualize regression results
-13. Save outputs to Google Drive
-
----
-
-## Machine Learning Model
-
-**Algorithm**
-
-- Simple Linear Regression
-
----
-
-## Evaluation Metrics
-
-The model is evaluated using:
-
-- R² Score
-- Mean Absolute Error (MAE)
-- Mean Squared Error (MSE)
-- Root Mean Squared Error (RMSE)
-
----
+The Linear Regression model successfully learned the relationship between the housing features and house prices. Model performance was evaluated using common regression metrics, with the R² Score indicating how well the model explained the variance in housing prices.
 
 ## Visualizations
 
-The notebook generates the following figures:
+| | |
+|---|---|
+| ![Feature Histograms](outputs/charts/feature_histograms.png) | ![Correlation Heatmap](outputs/charts/correlation_heatmap.png) |
+| ![Actual vs Predicted](outputs/charts/actual_vs_predicted.png) | ![Residual Plot](outputs/charts/residual_plot.png) |
 
-- Correlation Heatmap
-- Scatter Plot
-- Regression Line
-- Actual vs Predicted Values
-- Residual Plot
-- Residual Distribution Histogram
+## Key Takeaways
 
----
+- Linear Regression provides a simple yet effective baseline model for predicting continuous values.
+- Correlation analysis helps identify the most influential features affecting house prices.
+- Residual analysis is useful for checking model assumptions and identifying prediction errors.
+- This project demonstrates the complete machine learning workflow, from preprocessing to model evaluation.
 
-## Technologies Used
+## Tools & Libraries
 
-- Python
-- Google Colab
-- Pandas
-- NumPy
-- Matplotlib
-- Seaborn
-- Scikit-learn
-  
-## Results
+Python · Pandas · NumPy · Matplotlib · Seaborn · Scikit-learn
 
-The notebook automatically saves:
+## How to Run
 
-- Cleaned Dataset
-- Correlation Matrix
-- Model Coefficients
-- Predictions
-- Evaluation Metrics
-- Analysis Summary
-- High-resolution charts
-
----
-
-## Future Improvements
-
-Possible extensions for this project include:
-
-- Multiple Linear Regression
-- Feature Engineering
-- Cross Validation
-- Polynomial Regression
-- Model Comparison with Decision Trees and Random Forests
+1. Open `Level1_Task2_LinearRegression_BostonHousing.ipynb` in Google Colab.
+2. Run all cells from top to bottom.
+3. The notebook automatically trains the Linear Regression model, evaluates its performance, and saves the generated visualizations to the `outputs/` folder.
 
 ---
 
